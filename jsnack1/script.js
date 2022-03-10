@@ -11,12 +11,12 @@ for (let i = 0; i < guests.length; i++) {
     if (guestName === guests[i]) {
         verification = true;
         console.log('Benvenuto!');
-        //  document.getElementById('response').innerText = 'Benvenuto!';
+        document.getElementById('response').innerText = 'Benvenuto!';
     }
 }
 
 if (verification === false) {
     console.log('Sorry, no!');
-    // document.getElementById('response').innerText = 'Sorry, no!';
+    document.getElementById('response').innerText = 'Sorry, no!';
 }
 
